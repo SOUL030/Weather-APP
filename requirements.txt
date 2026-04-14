@@ -1,0 +1,19 @@
+# Atmos Weather App — Python Dependencies
+# ──────────────────────────────────────────
+# This app uses ONLY Python standard library modules.
+# No third-party packages are required.
+#
+# Standard library modules used:
+#   - tkinter       (GUI framework)
+#   - urllib        (HTTP requests to OpenWeatherMap API)
+#   - json          (parse API responses)
+#   - threading     (non-blocking API calls)
+#   - datetime      (format sunrise/sunset timestamps)
+#
+# Requirements:
+#   Python >= 3.6
+#
+# Linux users only — install tkinter if missing:
+#   sudo apt install python3-tk        (Debian/Ubuntu)
+#   sudo dnf install python3-tkinter   (Fedora/RHEL)
+#   sudo pacman -S tk                  (Arch)
