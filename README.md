@@ -7,42 +7,40 @@ A sleek, desktop weather application built with **Python + Tkinter** that fetche
 ## 📸 Preview
 
 ```
-┌─────────────────────────────────┐
-│  🔍 Search city...          [⌕] │
-│                                 │
-│            ☀                   │
-│           28°C                  │
-│      Feels like 31°C            │
-│        Clear Sky                │
-│      📍 Delhi, IN               │
-│  ─────────────────────────────  │
-│  💧 72%  🌬 3m/s N  🌡 1012hPa │
-│  👁 10km  🌅 06:12  🌇 19:45   │
-│                                 │
-│  5-DAY FORECAST                 │
-│  Mon  Tue  Wed  Thu  Fri        │
-│  ☀    ☁    🌧   ☀    ☁         │
-│  28°  25°  22°  30°  27°        │
-│                                 │
-│  ○ °C   ○ °F   ○ K             │
-└─────────────────────────────────┘
+┌──────────────────────────────────────────────────────────────────┐
+│  LEFT PANEL (340px)          │  RIGHT PANEL (620px)              │
+│  ─────────────────────────── │  ────────────────────────────── │
+│                               │  [ Search city...           ⌕ ] │
+│         ☀                    │                                   │
+│        32°C                  │  CURRENT CONDITIONS               │
+│   Feels like 30°C            │  💧 Humidity  🌬 Wind  🌡 Pressure│
+│      Clear Sky               │   13%       4m/s W   1008 hPa    │
+│    📍 Dehradun, IN           │  👁 Visibil  🌅 Sunrise 🌇 Sunset │
+│                               │   10.0 km    05:52     18:43    │
+│  ─────────────────────────── │                                   │
+│  Units: ●°C  ○°F  ○K        │  5-DAY FORECAST                   │
+│                               │  Tue  Wed  Thu  Fri  Sat        │
+│                               │  ☀    ☀    ☁    🌧   ☁          │
+│                               │  32°  20°  21°  23°  24°        │
+│                               │  Clear  Clear  Clouds Rain ...  │
+└──────────────────────────────────────────────────────────────────┘┘
 ```
 
 ---
 
-## ✨ Features
+##  Features
 
-- 🌡 **Current Temperature** with "feels like" reading
-- 🌦 **Weather Description** and animated condition icon
-- 📍 **City & Country** display
-- 💧 **Humidity, Pressure, Visibility**
-- 🌬 **Wind Speed & Compass Direction**
-- 🌅 **Sunrise & Sunset** times
-- 📅 **5-Day Forecast** strip
-- 🎨 **Dynamic Gradient Background** — changes with weather condition
-- 🔄 **Unit Toggle** — switch between °C, °F, and Kelvin instantly
-- ⚡ **Threaded API calls** — UI stays responsive while fetching
-- ❌ **Error Handling** — friendly messages for bad keys, unknown cities, network failures
+-  **Current Temperature** with "feels like" reading
+-  **Weather Description** and animated condition icon
+-  **City & Country** display
+-  **Humidity, Pressure, Visibility**
+-  **Wind Speed & Compass Direction**
+-  **Sunrise & Sunset** times
+- **5-Day Forecast** strip
+-  **Dynamic Gradient Background** — changes with weather condition
+- **Unit Toggle** — switch between °C, °F, and Kelvin instantly
+-  **Threaded API calls** — UI stays responsive while fetching
+-  **Error Handling** — friendly messages for bad keys, unknown cities, network failures
 
 ---
 
@@ -71,7 +69,7 @@ sudo pacman -S tk
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Step 1 — Get a Free API Key
 1. Go to [https://openweathermap.org/api](https://openweathermap.org/api)
