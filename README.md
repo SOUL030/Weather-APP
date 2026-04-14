@@ -9,20 +9,20 @@ A sleek, desktop weather application built with **Python + Tkinter** that fetche
 ```
 ┌──────────────────────────────────────────────────────────────────┐
 │  LEFT PANEL (340px)          │  RIGHT PANEL (620px)              │
-│  ─────────────────────────── │  ────────────────────────────── │
-│                               │  [ Search city...           ⌕ ] │
+│  ─────────────────────────── │  ──────────────────────────────    │
+│                              │  [ Search city...           ⌕ ]    │
 │         ☀                    │                                   │
-│        32°C                  │  CURRENT CONDITIONS               │
-│   Feels like 30°C            │  💧 Humidity  🌬 Wind  🌡 Pressure│
-│      Clear Sky               │   13%       4m/s W   1008 hPa    │
+│        32°C                  │  CURRENT CONDITIONS                │
+│   Feels like 30°C            │  💧 Humidity  🌬 Wind  🌡 Pressure │
+│      Clear Sky               │   13%       4m/s W   1008 hPa      │
 │    📍 Dehradun, IN           │  👁 Visibil  🌅 Sunrise 🌇 Sunset │
-│                               │   10.0 km    05:52     18:43    │
-│  ─────────────────────────── │                                   │
-│  Units: ●°C  ○°F  ○K        │  5-DAY FORECAST                   │
-│                               │  Tue  Wed  Thu  Fri  Sat        │
+│                               │   10.0 km    05:52     18:43      │
+│  ───────────────────────────  │                                   │
+│  Units: ●°C  ○°F  ○K          │  5-DAY FORECAST                   │
+│                               │  Tue  Wed  Thu  Fri  Sat          │
 │                               │  ☀    ☀    ☁    🌧   ☁          │
-│                               │  32°  20°  21°  23°  24°        │
-│                               │  Clear  Clear  Clouds Rain ...  │
+│                               │  32°  20°  21°  23°  24°          │
+│                               │  Clear  Clear  Clouds Rain ...    │
 └──────────────────────────────────────────────────────────────────┘┘
 ```
 
