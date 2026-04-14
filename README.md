@@ -134,7 +134,7 @@ The background gradient automatically adapts to conditions:
 
 ---
 
-## 🔧 Troubleshooting
+##  Troubleshooting
 
 | Issue | Solution |
 |---|---|
@@ -146,13 +146,13 @@ The background gradient automatically adapts to conditions:
 
 ---
 
-## 📜 License
+##  License
 
 MIT License — free to use, modify, and distribute.
 
 ---
 
-## 🙏 Credits
+##  Credits
 
 - Weather data: [OpenWeatherMap API](https://openweathermap.org/api)
 - Built with Python's built-in `tkinter` GUI toolkit
